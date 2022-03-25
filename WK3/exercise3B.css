@@ -1,0 +1,33 @@
+div{
+    display: grid;
+    grid-template-columns:20% 70%;
+    grid-template-rows: auto;
+    grid-template-areas: "header header header"
+    "nav main main"
+    "footer footer footer";
+}
+
+header{
+    background-color: blue;
+    color: white;
+    padding: 30px;
+    grid-area: header;
+}
+
+nav {
+    background-color: yellow;
+    grid-area: nav;
+    color: blue;
+
+}
+
+main {
+    color: white;
+    background-color:darkblue;
+    grid-area: main;
+    padding-top: 20px;
+}
+footer {
+    background-color: darkgreen;
+    grid-area: footer;
+}
