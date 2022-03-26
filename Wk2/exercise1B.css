@@ -1,0 +1,12 @@
+.part1{
+    background-color: aqua;
+    display:block;
+    width: 50%;
+    float:left;
+} 
+.part2{
+    background-color: yellow;
+    display:block;
+    width: 50%;
+    float:left;
+}
